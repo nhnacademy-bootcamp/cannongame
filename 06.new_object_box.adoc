@@ -1,0 +1,155 @@
+:stem: latexmath
+
+= 6. 새로운 물체의 출현
+
+현재의 world에는 ball만 존재한다. ball 이외의 다른 물체가 존재한다면 어떻게 될 것인가?
+
+사각형의 box를 world에 추가해 보도록 하자.
+
+== 6-1. Box class
+
+=== 정의
+
+2차원 공간에서의 Box는 우리가 흔히 알고 있는 사각형이다.
+
+image::./image/figure31.png"[title="box",align=center]
+
+* 생성 후 이동이나 정보 변경 불가
+
+==== Variable
+
+box는 중심 좌표와 폭과 높이를 갖는다.
+
+* Rectangle region
+** 생성시 받은 중심 좌표, 폭, 높이 등으로 생성
+** 생성시 지정
+
+==== Method
+
+box에는 값을 얻기 위한 함수와  화면상에 표시하기 위한 함수가 제공되어야 하며, 위에서 정의한 필드의 값을 얻을 수 있도록 다음의 함수가 요구된다.
+
+* Point getLocation()
+** World 공간상에서의 box 중심
+* int getWidth()
+** box 가로 길이
+* int getHeight()
+** box 높이
+* Rectangle getRegion()
+** 영역 반환
+
+=== Exam-6-1-1. Box class를 구현하라
+
+* x, y로 이루어진 중심점 좌표, 폭, 높이을 갖는다.
+* 중심점 좌표, 폭, 높이는 생성 시 설정한다.
+* 복제 생성자를 구성한다.
+* 각 필드 값을 요청할 수 있다.
+* 코드 중복은 최소화하라.
+* 코딩 규칙을 따라 작성한다.
+
+==== 확인
+
+* Source Code
+** link:./example/chapter06/src/main/java/com/nhnacademy/exam060101/Box.java[class Box]
+
+== 6-2. PaintableBox class
+
+=== 정의
+
+* World상에 색을 가지고 그려질 수 있다.
+
+==== Variable
+
+* Color color
+** box 색상
+** 생성할 때 생략 가능
+** 생략시 기본값으로 검은색(BLACK)
+
+==== Method
+
+* Color getColor()
+** box 색
+* void paint(Graphics g)
+** 그리기
+
+기본적인 Box class 구성이 완료되었다면, 화면상에 표시하기 위해서도 다음의 함수가 요구된다.
+
+화면에 그리기는 awt library를 사용하므로, 라이브러리에서 요구하는 형식에 맞춰 구성되어야 한다.
+
+AWT에서는 Graphics context 제공하여 화면 출력이 가능하도록 지원하므로, 그리기 함수에서는 제공되는 context를 이용해 그려야 한다.
+
+=== Reference. AWT에서 사각형 그리기
+
+Box class에서 도형을 그리는 paint 함수를 보면, 사각형을 그리기 위해  fillRect를 사용한다.
+
+image::./image/figure32.png"[title="fillRect",align=center]
+
+* (x, y)는 box의 중심 좌표를 나타낸다.
+* fillRect는 우측 상단 꼭짓점과 폭, 높이 정보가 필요하다.
+
+---
+=== Exam-6-2-1. PaintableBox class를 구현하라.
+
+* Box class 확장
+* awt Graphics context를 매개변수로 받아 그릴 수 있도록 paint 함수 추가
+
+==== 확인
+
+* Source Code
+** link:./example/chapter06/src/main/java/com/nhnacademy/exam060201/PaintableBox.java[class PaintableBox]
+ 
+== 6-3. Ball과 Box
+
+
+
+=== Exam-6-3-1. World에서 Box class를 지원할 수 있도록 추가하라
+
+Ball만 존재하던 world에 Box를 추가할 수 있도록 수정해 보자.
+
+image::./image/figure33.png"[title="Box World",align=center]
+
+==== 확인
+
+* Source Code
+** link:./example/chapter06/src/main/java/com/nhnacademy/exam060301/World.java[class World]
+** link:./example/chapter06/src/main/java/com/nhnacademy/exam060301/MovableWorld.java[class MovableWorld]
+** link:./example/chapter06/src/main/java/com/nhnacademy/exam060301/BoundedWorld.java[class BoundedWorld]
+* 물음
+** Box 추가에 문제는 없나?
+** Data type만 다를 뿐 동일한 작업은 문제없나?
+** 새로운 종류가 추가된다면?
+
+---
+
+box를 관리하기 위한 필드를 추가할뿐만 아니라 관련된 함수들을 모두 추가해야 한다. 생각보다 번거로운 일이 아닐 수 없다.
+
+이는 World class가 확장성을 전혀 가지고 있지 못하다는 것을 보여 준다.
+
+두 번째 방법으로 Ball class와  Box class의 상위 class인 Object class를 이용하는 방법이 있을 수 있다.
+
+---
+
+=== Exam-6-1-4. World class의 오브젝트들을 Obect class로 단일화시켜 관리토록 바꿔 보자
+
+* Ball과 Box를 각각 관리하지 않고, 공통 super class인 Object로 관리
++
+image::./image/figure34.png"[title="exam_6_1_3_1",align=center]
+
+==== 확인
+
+* link:../src/main/java/com/nhnacademy/World.java[class World]
+* 새로운 종류 추가에 문제가 없는가?
+* paint에서 Object class에 대해 처리가 가능한가?
+
+---
+
+두 가지 방식 모두 좋아 보이지 않는다. 그렇다고 하더라고 나머지 추가 작업이 없다면 사용할 수 있을 것이다.
+
+하지만, World class를 확장해서 정의한 MovableWorld, BoundedWorld는 어떻게 해야 하나?
+
+World class에서 했던 작업을 동일하게 반복해야 한다.
+
+문제가 간단하지만은 않은 듯하다.
+
+---
+
+link:./index.adoc[돌아가기]

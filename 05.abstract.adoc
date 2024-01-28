@@ -1,0 +1,222 @@
+:stem: latexmath
+
+= 5. 간추려 사용하기
+
+**Keyworld**
+
+* ADT
+* Vector(mathematics and physics)
+
+== 5-1. 분리되어 있던 정보를 모아서 사용하자
+
+* Ball을 표현하는 데이터 X, Y 좌표
+* 2차원 평면에서 X축 정보와 Y축 정보가 함께 존재할 때 의미를 가짐
+* awt에서 2차원 평면상의 특정 지점을 표현하기 위해 Point class를 정의하고 있음
+
+--- 
+
+=== Exam-5-1-1. Ball class에서 Point class를 사용하도록 수정하라.
+
+* x, y 변수를 Point class로 변경
+
+==== 확인
+
+* Source Code
+** link:./example/chapter05/src/main/java/com/nhnacademy/exam050101/Ball.java[class Ball]
+*** x, y로 분리하여 관리하던 위치 정보를 Point class로 이용한 location으로 변경
+
+
+== 5-2. Region 활용하기
+
+Ball class 코드를 보도록 하자.
+
+** link:./example/chapter05/src/main/java/com/nhnacademy/exam050101/Ball.java[class Ball]
+
+* ball 위치를 위한 location과 크기를 위해 radius를 선언하고 있다.
+* ball의 차지하고 있는 영역을 사각으로 둘러싸는 최소 영역을 region으로 선언하고 있다.
+
+---
+
+=== Exam-5-2-1. location, radius 대신 region을 이용하도록 수정하라
+
+* location, radius 대신 Rectangle을 이용한 region으로 대체
+* 기존에 사용하던 함수의 정의는 수정하지 않고, 구현만 수정
+
+{empty} +
+
+==== 확인
+
+* Source Code
+* link:./example/chapter05/src/main/java/com/nhnacademy/exam050201/Ball.java[class Ball]
+* 물음
+** 코드를 많이 수정하였나?
+** 앞에 만들어 둔 unit test에는 문제가 없나?
+** location, radius와 region은 관계는 어떻게 될까?
+
+{empty} +
+
+==== 참고
+
+* 필드를 직접 사용하는 것보다 accessor나 mutator를 사용하였다면, accessor와 mutator만 수정해서 적용할 수 있는 것이다.
+
+---
+
+== 5-3. Motion class
+
+=== 정의
+
+앞에서 2차원 공간에서의 물체 이동은 stem:[(dx, dy)], 즉, x축의 변화량과 y축의 변화량을 사용하였다. 하지만, 이것은 물체의 이동을 나타내는 데 한계가 있다.
+
+예를 들어, ball을 30도 각도(stem:[\theta])를 10만큼의 크기(stem:[v])로 쏜다고 해보자. x축과 y축의 변화량은 얼마인가?
+
+$$
+\begin{align*}
+dx = v sin \theta\\
+dy = v cos \theta
+\end{align*}
+$$
+
+계산은 가능하다. 하지만, 이것을 매번 하거나 여러 변위량이 중첩하게 된다면 매우 복잡한 계산을 반복적으로 해야 하는 번거로움이 생길 것이다.
+
+이러한 문제 해결을 위해 2차원 공간에서의 물체 이동과 관련된 class를 만들도록 한다.
+
+Motion class는 물리학이나 수학에서 말하는 Vector를 표현한 것이다.
+
+image::./image/figure30.png"[title="Motion",align=center]
+
+
+{empty} +
+
+==== Variable
+
+Motion은 좌표계를 기준으로 함으로 dx, dy를 기본으로 갖는다.
+
+* int dx
+** x축 변화량
+* int dy
+** y축 변화량
+
+{empty} +
+
+==== Method
+
+Motion은 수학과 물리학에서 이야기하는 벡터로서 각각의 성분을 개별적으로 반환하거나, motion 간 연산이 가능하다.
+
+* Motion createPosition(int dx, int dy)
+** x축과 y축 변화량으로 생성할 수 있다
+* Motion createDisplacement(int angle, int magnitude)
+** 각도(angle)와 크기(magnitude)로 생성할 수 있다
+* void add(Motion other)
+** motion을 더할 수 있다.
+* void sub(Motion other)
+** motion을 뺄 수 있다.
+* int getDX()
+** X축 변화량
+* int getDY()
+** Y축 변화량
+* int getAngle()
+** X축 +방향을 기준으로한 각도
+* int getMagnitude()
+** 크기
+* void turnDX() 
+** Y축을 기준으로 방향 전환
+** x => -x
+* void turnDY() 
+** X축을 기준으로 방향 전환
+** y => -y
+
+---
+
+=== Exam-5-3-1. Motion class를 구현하라
+
+* x축과 y축의 변화량을 줄 경우와 각도와 크기를 줄 경우를 구분하기 어렵다(정수와 실수로 구분할 수는 있지만….)
+* Motion을  정의하고, 생성자는 class 함수로 정의한다.
+** x축과 y축의 변화량은 createPosition
+** 각도와 크기는 createDisplacement
+
+{empty} +
+
+==== 확인
+
+* Source Code
+** link:./example/chapter05/src/main/java/com/nhnacademy/exam050301/Motion.java[class Motion]
+* 물음
+* Position Vector와  Displacement Vector간에는 변환이 자유롭다. 여기서도 그러한가?
+* 그렇지 않다면 무엇이 문제인가? 
+* 해결 방법은?
+
+--- 
+
+=== Exam-5-3-2. Motion class를 JUnit으로 확인하라.
+
+* Motion class는 내부 연산, getter, setter로 구성되어, JUnit 이용한 단위 테스트 적용 가능
+
+{empty} +
+
+==== 확인
+
+* Source Code
+** link:./example/chapter05/src/test/java/com/nhnacademy/exam050302/TestMotion.java[class TestMotion]
+* Motion class의 instance를 생성하여, 미리 계산된 값과 동일하게 나오는지 확인
+
+== 5-4. 공간에서의 이동
+
+공간에서의 이동은 물체가 방향과 크기(motion)에 따라 위치가 변하는 것을 말하며, 이를 Motion class로 정의하였다.
+
+=== Ball의 이동
+
+앞의 MovableBall은 단위 이동량을 dx, dy로 설정하였다.
+이것은 방향성을 갖는 힘 또는 에너지인 하나의 데이터를 두개의 정보로 나누어 관리하는 것으로 바람직하지 않고,
+프로그램 상에서 오류가 발생할 가능성도 높아진다.
+
+예를 들어, 여러개의 Motion을 관리할 경우, 다음과 같은 문제가 발생할 수 있다.
+* 여러개의 이동량 데이터가 존재할 경우, dx, dy가 분리되어 관리됨.(예를 들어, dx 배열, dy 배열)
+* 함께 관리되어야 할 데이터가 3개 이상으로 늘어날 경우, 더욱 복잡해 짐.
+* Position, Displacement 등의 변환이 빈번할 경우, 코드 복잡성이 높아짐.
+** 특정 데이터에서 값을 얻어내는 것이 아닌 함수등을 통해서 계산해 내야함.
+
+MovableBall에 Motion class로 변경하여 적용해 보자.
+
+---
+
+=== Exam-5-4-1. 단위 이동량stem:[(dx, dy)]을 Motion class로 수정하라
+
+* MovableBall에 정의되어 있는 이동량 관련 변수를 수정하라.
+* 불필요한 함수는 제거하거나 변경하라.
+* MovableBallTest를 수정하여 테스트 코드를 작성하라.
+* 다음 코드를 참고하라.
+** 변경 전
++
+[source,java]
+----
+public class MovableBall extends Ball {
+    int dx = 0;
+    int dy = 0;
+    long movementCount = 0;
+        ...
+}
+----
+** 변경 후
++
+[source,java]
+----
+public class MovableBall extends Ball {
+    Motion motion = new Motion();
+    long movementCount = 0;
+        ...
+}
+----
+
+{empty} +
+
+==== 확인
+
+* Source Code
+** link:./example/chapter05/src/main/java/com/nhnacademy/exam050401/MovableBall.java[class MovableBall] 
+* 물음
+** 무엇이 달라지고, 그 의미는 무엇인가?
+** 코드의 복잡도는 어떻게 달라졌는가?
+
+---
+
+link:./index.adoc[돌아가기]

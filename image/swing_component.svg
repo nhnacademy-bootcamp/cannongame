@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Microsoft Visio, SVG Export에서 생성되었습니다. swing_component.svg 페이지-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.86434in" height="5.09269in"
+		viewBox="0 0 494.233 366.674" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1042" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st3 {fill:#000000;font-family:맑은 고딕;font-size:0.833336em}
+		.st4 {marker-end:url(#mrkr5-75);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-4" class="st2" v:arrowType="5" v:arrowSize="2" v:setback="20.125" refX="-20.125" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-11.5,-11.5) "/>
+		</marker>
+		<marker id="mrkr5-75" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="7.63" refX="-7.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>페이지-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="연결선" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(218.77,-332.156)">
+			<title>모서리가 둥근 직사각형</title>
+			<desc>Object</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="27.66" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Object</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(218.77,-275.463)">
+			<title>모서리가 둥근 직사각형.2</title>
+			<desc>Component</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="15.77" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Component</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(140.817,-218.77)">
+			<title>모서리가 둥근 직사각형.4</title>
+			<desc>Container</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="20.57" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Container</text>		</g>
+		<g id="shape5-14" v:mID="5" v:groupContext="shape" transform="translate(289.636,-218.77)">
+			<title>모서리가 둥근 직사각형.5</title>
+			<desc>JContainer</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="18.77" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JContainer</text>		</g>
+		<g id="shape6-18" v:mID="6" v:groupContext="shape" transform="translate(62.8643,-162.077)">
+			<title>모서리가 둥근 직사각형.6</title>
+			<desc>Window</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="23.94" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Window</text>		</g>
+		<g id="shape12-22" v:mID="12" v:groupContext="shape" transform="translate(218.77,-162.077)">
+			<title>모서리가 둥근 직사각형.12</title>
+			<desc>Panel</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="30.27" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Panel</text>		</g>
+		<g id="shape13-26" v:mID="13" v:groupContext="shape" transform="translate(6.17141,-105.384)">
+			<title>모서리가 둥근 직사각형.13</title>
+			<desc>Frame</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="28.58" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Frame</text>		</g>
+		<g id="shape14-30" v:mID="14" v:groupContext="shape" transform="translate(119.557,-105.384)">
+			<title>모서리가 둥근 직사각형.14</title>
+			<desc>Dialog</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="27.87" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Dialog</text>		</g>
+		<g id="shape15-34" v:mID="15" v:groupContext="shape" transform="translate(218.77,-105.384)">
+			<title>모서리가 둥근 직사각형.15</title>
+			<desc>Applet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="27.59" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Applet</text>		</g>
+		<g id="shape16-38" v:mID="16" v:groupContext="shape" transform="translate(403.022,-303.809)">
+			<title>모서리가 둥근 직사각형.16</title>
+			<desc>JLabel</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="28.81" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JLabel</text>		</g>
+		<g id="shape17-42" v:mID="17" v:groupContext="shape" transform="translate(403.022,-261.29)">
+			<title>모서리가 둥근 직사각형.17</title>
+			<desc>JList</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="33.2" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JList</text>		</g>
+		<g id="shape18-46" v:mID="18" v:groupContext="shape" transform="translate(403.022,-218.77)">
+			<title>모서리가 둥근 직사각형.18</title>
+			<desc>JTable</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="28.54" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JTable</text>		</g>
+		<g id="shape19-50" v:mID="19" v:groupContext="shape" transform="translate(403.022,-176.25)">
+			<title>모서리가 둥근 직사각형.19</title>
+			<desc>JComboBox</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="15.92" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JComboBox</text>		</g>
+		<g id="shape20-54" v:mID="20" v:groupContext="shape" transform="translate(403.022,-133.731)">
+			<title>모서리가 둥근 직사각형.20</title>
+			<desc>JSlider</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="28.09" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JSlider</text>		</g>
+		<g id="shape21-58" v:mID="21" v:groupContext="shape" transform="translate(403.022,-91.2109)">
+			<title>모서리가 둥근 직사각형.21</title>
+			<desc>JMenu</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="27.68" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JMenu</text>		</g>
+		<g id="shape22-62" v:mID="22" v:groupContext="shape" transform="translate(403.022,-48.6912)">
+			<title>모서리가 둥근 직사각형.22</title>
+			<desc>AbstractButton</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="8.74" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>AbstractButton</text>		</g>
+		<g id="shape23-66" v:mID="23" v:groupContext="shape" transform="translate(403.022,-6.17155)">
+			<title>모서리가 둥근 직사각형.23</title>
+			<desc>JButton</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="352.501" width="85.04" height="28.3465"/>
+			<path d="M8.5 366.67 L76.54 366.67 A8.5038 8.5038 -180 0 0 85.04 358.17 L85.04 346.83 A8.5038 8.5038 -180 0 0 76.54 338.33
+						 L8.5 338.33 A8.5038 8.5038 -180 0 0 -0 346.83 L0 358.17 A8.5038 8.5038 -180 0 0 8.5 366.67 Z" class="st1"/>
+			<text x="25.58" y="355.5" class="st3" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>JButton</text>		</g>
+		<g id="shape24-70" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(254.203,-303.809)">
+			<title>동적 연결선</title>
+			<path d="M7.09 366.67 L7.09 344.05" class="st4"/>
+		</g>
+		<g id="shape27-76" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(183.337,-247.116)">
+			<title>동적 연결선.27</title>
+			<path d="M0 366.67 L0 356.04 L77.95 356.04 L77.95 344.05" class="st4"/>
+		</g>
+		<g id="shape29-81" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(332.156,-247.116)">
+			<title>동적 연결선.29</title>
+			<path d="M0 366.67 L0 356.04 L-70.87 356.04 L-70.87 344.05" class="st4"/>
+		</g>
+		<g id="shape30-86" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(105.384,-190.424)">
+			<title>동적 연결선.30</title>
+			<path d="M0 366.67 L0 356.04 L77.95 356.04 L77.95 344.05" class="st4"/>
+		</g>
+		<g id="shape31-91" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(261.29,-190.424)">
+			<title>동적 연결선.31</title>
+			<path d="M0 366.67 L0 356.04 L-77.95 356.04 L-77.95 344.05" class="st4"/>
+		</g>
+		<g id="shape32-96" v:mID="32" v:groupContext="shape" v:layerMember="0" transform="translate(48.6911,-133.731)">
+			<title>동적 연결선.32</title>
+			<path d="M0 366.67 L0 356.04 L56.69 356.04 L56.69 344.05" class="st4"/>
+		</g>
+		<g id="shape33-101" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(162.077,-133.731)">
+			<title>동적 연결선.33</title>
+			<path d="M0 366.67 L0 356.04 L-56.69 356.04 L-56.69 344.05" class="st4"/>
+		</g>
+		<g id="shape34-106" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(254.203,-136.282)">
+			<title>동적 연결선.34</title>
+			<path d="M7.09 366.67 L7.09 346.6" class="st4"/>
+		</g>
+		<g id="shape35-111" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-317.983)">
+			<title>동적 연결선.35</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 451.71 L-22.62 451.71" class="st4"/>
+		</g>
+		<g id="shape36-116" v:mID="36" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-275.463)">
+			<title>동적 연결선.36</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 409.19 L-22.62 409.19" class="st4"/>
+		</g>
+		<g id="shape37-121" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-225.857)">
+			<title>동적 연결선.37</title>
+			<path d="M0 359.59 L-22.62 359.59" class="st4"/>
+		</g>
+		<g id="shape38-126" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-190.424)">
+			<title>동적 연결선.38</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 324.15 L-22.62 324.15" class="st4"/>
+		</g>
+		<g id="shape39-131" v:mID="39" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-147.904)">
+			<title>동적 연결선.39</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 281.63 L-22.62 281.63" class="st4"/>
+		</g>
+		<g id="shape40-136" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-105.384)">
+			<title>동적 연결선.40</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 239.11 L-22.62 239.11" class="st4"/>
+		</g>
+		<g id="shape41-141" v:mID="41" v:groupContext="shape" v:layerMember="0" transform="translate(403.022,-62.8645)">
+			<title>동적 연결선.41</title>
+			<path d="M0 366.67 L-10.63 366.67 L-10.63 196.6 L-22.62 196.6" class="st4"/>
+		</g>
+		<g id="shape42-146" v:mID="42" v:groupContext="shape" v:layerMember="0" transform="translate(438.455,-34.518)">
+			<title>동적 연결선.42</title>
+			<path d="M7.09 366.67 L7.09 358.22" class="st4"/>
+		</g>
+	</g>
+</svg>

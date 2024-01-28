@@ -1,0 +1,139 @@
+:stem: latexmath
+
+= 7. 조금 더 단순하게
+
+**Keyword**
+
+* Interface
+* Subclassing
+* Subtyping
+
+문제를 단순화하기 위해 Box class가 추가된 World class를 다시 보자.
+
+World class 내에서 ball과 box를 구분해야 할 곳은 어디인가?
+
+이것만 일반화할 수 있다면 문제가 쉽게 해결되지 않을까?
+
+== 7-1. Regionable 인터페이스
+
+World class는 출력되는 오브젝트들은 모두 일정한 영역을 갖는다. 앞서 정의한 ball이나 box에서도 getRegion 함수를 이용해 영역 확인이 가능하다.
+
+이러한 공통적인 기능들이 제공되는 type을 정의한다.
+
+=== 정의
+
+* 영역을 가지는 type
+
+{empty} +
+
+==== Method
+
+* Rectangle getRegion()
+** 영역 가져오기
+
+---
+
+=== Exam-7-1-1. Regionable 인터페이스를 선언하고, World class에는 Regionable 오브젝트를 받아서 관리할 수 있도록 수정하라[[Exam-7-1-1,"Exam-7-1-1"]]
+
+{empty} +
+
+==== 확인
+
+*link:../src/main/java/com/nhnacademy/World.java[class World]
+* 어떠한 문제점이 있는가?
+* 해결 방법은? Regionable에 그리기 함수 추가?
+
+---
+
+== 7-2. Paintable 인터페이스
+
+World class는 도형을 받아서 화면에 출력하는 작업을 한다. 따라서, 실제로 필요한 것은 paint 함수를 가진 오브젝트면 어떠한 종류든 상관이 없다.
+
+=== 정의
+
+* 그리기 지원
+
+{empty} +
+
+==== Method
+
+* void paint(Graphics g)
+** 그리기
+
+---
+
+=== Exam-7-2-1. Paintable 인터페이스를 선언하고, World class에는 Paintable 오브젝트를 받아서 관리할 수 있도록 수정하라
+
+{empty} +
+
+==== 확인
+
+* <<Exam-7-1-1>>에서 발생한 문제는 해결되었나?
+
+---
+
+=== Exam-7-2-2. Ball class와 Box class를 World class에 적용할 수 있도록 수정하라
+
+* class가 수정되었다면 앞서 만들어 둔 SingleBallWorldTest를 이용해 동작을 확인해 보자.
+* MultiBallWorldTest에서는 에러가 발생할 수 있다. 이는 확인을 위해 getBall 함수를 이용해 Ball을 가져오기 때문이다. 수정해 보도록 한다.
+
+
+==== 확인
+
+image::./image/figure35.png"[title="Exam-26",align=center]
+
+---
+
+== 7-3. Movable 인터페이스
+
+=== 정의
+
+* MovableBall, MovableBox 그리고 MovableWorld? Movable!
+
+* MovableWorld에서 오브젝트를 이동하기 위해 필요한 것은 해당 오브젝트에서 이동에 필요한 함수 지원 여부
+
+==== Method
+
+* void setMotion(Motion motion)
+** 단위 시간당 이동량을 설정
+* Motion getMotion()
+** 설정되어 있는 단위 시간당 이동량
+* void move()
+** 단위 시간당 이동량만큼 이동하기
+* void moveTo(int x, int y)
+** 특정 위치로 이동하기
+
+---
+
+=== Exam-7-3-1. MovableBall과 MovableWorld도 Movable 인터페이스를 선언해 해결하는 것과 같은 방법으로 해결하라
+
+==== 확인
+
+* 기존 코드에서 많은 부분을 바꿔야 하나?
+
+---
+
+== 7-3. Bounded 인터페이스
+
+=== 정의
+
+* BoundedBall, BoundedBox 그리고 BoundedWorld?? Bounded!
+
+==== Method
+
+* Rectangle getBounds()
+** 경계 정보
+* void setBounds(Rectangle bounds)
+** 경계 정보 설정
+* boolean isOutOfBounds(Rectangle bounds)
+** 이동 후 경계를 벗어났는지 확인
+* void bounce()
+* 경계를 벗어 경우 벽에서 튕김
+
+---
+
+=== Exam-7-3-2. BoundedBall과 BoundedWorld도 Bounded 인터페이스를 선언해 해결하는 것과 같은 방법으로 해결하라
+
+---
+
+link:./index.adoc[돌아가기]
