@@ -308,10 +308,16 @@ image::./image/figure03.png[title="oval",align=center]
 
 * ball이 존재할 공간이면서 화면에 출력될 영역
 ** world내에서 동작할 ball은 world에서 관리
-* JPanel component 확장
-** swing component
-** JFrame 생성 후 panel을 추가하여 실행
-
+*** 볼 추가
+*** 볼 삭제
+**** 삭제할 볼을 주거나 인덱스로 지시
+*** 특정 번째 볼 가져오기
+*** 볼 갯수
+*** 그리기
+* Swing component
+** JPanel 확장
+** 전체 프로그램의 틀이 될 JFrame 생성 후 world 추가하여 실행
+ 
 {empty} + 
 
 ==== Variable
@@ -382,7 +388,7 @@ image::./image/figure04.png[title="실행 화면",align=center]
 
 ---
 
-=== Exam-2-3-2. world를 생성하고, paintable ball을 추가해 출력하라
+=== Exam-2-3-2. 구현된 world에 paintable ball을 추가해 출력하라
 
 * world
 ** 크기 가로 400, 세로 300
