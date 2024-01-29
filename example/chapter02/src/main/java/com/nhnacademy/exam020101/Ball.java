@@ -10,7 +10,7 @@ public class Ball {
 
     /**
      * Constructor.
-     *
+     * 
      * @param x      X축 좌표
      * @param y      Y축 좌표
      * @param radius 반지름
