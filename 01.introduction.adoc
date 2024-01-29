@@ -60,6 +60,8 @@ image::./image/figure01.png[title="프로젝트 구성", align=center]
 ** https://docs.oracle.com/javase/tutorial/java/[The Java Tutorials]
 * 코딩 스타일
 ** https://google.github.io/styleguide/javaguide.html[Google Java Style Guide]
+** https://code.visualstudio.com/docs/java/java-linting#_checkstyle[Checkstyle in Visual Studio Code]
+
 * 단위 테스트
 ** https://junit.org/junit5/docs/current/user-guide/#overview-getting-started[JUnit5 User Guide]
 * 로그 관리

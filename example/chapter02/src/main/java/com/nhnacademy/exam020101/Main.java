@@ -1,6 +1,14 @@
 package com.nhnacademy.exam020101;
 
+/**
+ * Ball 클래스 테스트.
+ */
 public class Main {
+    /**
+     * 테스트 메인.
+     *
+     * @param args Command line arguments
+     */
     public static void main(String[] args) {
         int x = 100;
         int y = 100;

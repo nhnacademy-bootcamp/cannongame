@@ -1,4 +1,4 @@
-package com.nhnacademy.exam020201;
+package com.nhnacademy.exam020302;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -7,6 +7,7 @@ import java.awt.Graphics;
  * 화면 출력 가능한 ball.
  */
 public class PaintableBall extends Ball {
+    public static final Color DEFAULT_COLOR = Color.BLACK;
     Color color;
 
     /**
@@ -21,6 +22,10 @@ public class PaintableBall extends Ball {
         super(x, y, radius);
 
         this.color = color;
+    }
+
+    public PaintableBall(int x, int y, int radius) {
+        this(x, y, radius, DEFAULT_COLOR);
     }
 
     public Color getColor() {

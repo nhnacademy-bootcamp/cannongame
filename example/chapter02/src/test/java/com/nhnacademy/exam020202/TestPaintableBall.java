@@ -1,16 +1,14 @@
-package com.nhnacademy;
+package com.nhnacademy.exam020202;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
+import com.nhnacademy.exam020201.PaintableBall;
 import java.awt.Color;
 import java.util.Random;
-
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.api.TestInfo;
-
-import com.nhnacademy.exam020201.PaintableBall;
 
 class TestPaintableBall {
     static final int MIN_X = 0;
@@ -20,8 +18,7 @@ class TestPaintableBall {
     static final int MIN_RADIUS = 10;
     static final int MAX_RADIUS = 100;
     static final int TEST_COUNT = 10;
-    static final Color[] colors = { Color.BLUE, Color.RED, Color.WHITE,
-            Color.BLACK, Color.GREEN };
+    static final Color[] colors = { Color.BLUE, Color.RED, Color.WHITE, Color.BLACK, Color.GREEN };
 
     Random random = new Random();
     DummyGraphics graphics = new DummyGraphics();

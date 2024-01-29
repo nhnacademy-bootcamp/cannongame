@@ -1,4 +1,4 @@
-package com.nhnacademy.exam020201;
+package com.nhnacademy.exam020202;
 
 import java.awt.Color;
 import java.awt.Graphics;

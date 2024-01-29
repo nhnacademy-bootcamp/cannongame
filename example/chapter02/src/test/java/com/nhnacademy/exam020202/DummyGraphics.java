@@ -1,4 +1,4 @@
-package com.nhnacademy;
+package com.nhnacademy.exam020202;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -14,6 +14,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Graphics context가 요구되는 클래스를 graphics context 없이
+ * 테스트하기 위해 만든 dummy.
+ */
 public class DummyGraphics extends java.awt.Graphics {
     private Color color;
     List<String> callList = new LinkedList<>();
@@ -78,13 +82,13 @@ public class DummyGraphics extends java.awt.Graphics {
     }
 
     @Override
-    public void setClip(int x, int y, int width, int height) {
-        throw new UnsupportedOperationException("Unimplemented method 'setClip'");
+    public Shape getClip() {
+        throw new UnsupportedOperationException("Unimplemented method 'getClip'");
     }
 
     @Override
-    public Shape getClip() {
-        throw new UnsupportedOperationException("Unimplemented method 'getClip'");
+    public void setClip(int x, int y, int width, int height) {
+        throw new UnsupportedOperationException("Unimplemented method 'setClip'");
     }
 
     @Override

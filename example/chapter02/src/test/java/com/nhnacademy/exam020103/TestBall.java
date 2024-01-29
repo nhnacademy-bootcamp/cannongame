@@ -1,19 +1,21 @@
-package com.nhnacademy;
+package com.nhnacademy.exam020103;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
 
 import java.util.Random;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class TestBall {
+/**
+ * class Ball unit test.
+ */
+class TestBall {
     static Random random = new Random();
     int loopCount = 100;
 
     @Test
-    public void testConstructionWithArgument() {
+    void testConstructionWithArgument() {
         for (int i = 0; i < loopCount; i++) {
             int radius = random.nextInt(Integer.MAX_VALUE);
             int x = random.nextInt(Integer.MAX_VALUE - radius) * (random.nextInt(3) - 1);
@@ -29,7 +31,7 @@ public class TestBall {
     }
 
     @Test
-    public void testConstructionWithIllegalArgument() {
+    void testConstructionWithIllegalArgument() {
         for (int i = 0; i < loopCount; i++) {
             int illegalCase = random.nextInt(3); // 0: 반지름 음수, 1 : x 위치 오류, 2 : y 위치 오오, 3 : x, y 위치 오류
             int radius = random.nextInt(Integer.MAX_VALUE);

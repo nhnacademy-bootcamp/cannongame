@@ -1,4 +1,4 @@
-package com.nhnacademy.exam020102;
+package com.nhnacademy.exam020103;
 
 /**
  * 2차원 공간에서의 볼을 표현하기 위한 최소한의 정보만 가짐.

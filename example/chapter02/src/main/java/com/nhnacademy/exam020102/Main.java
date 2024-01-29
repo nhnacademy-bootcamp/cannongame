@@ -2,8 +2,16 @@ package com.nhnacademy.exam020102;
 
 import java.util.Random;
 
+/**
+ * Exam-2-1-2 테스트.
+ */
 public class Main {
 
+    /**
+     * 테스트 메인.
+     *
+     * @param args Command line arguments
+     */
     public static void main(String[] args) {
         Random random = new Random();
         int loopCount = 100;
@@ -21,21 +29,26 @@ public class Main {
         }
 
         for (int i = 0; i < loopCount; i++) {
-            int illegalCase = random.nextInt(3); // 0: 반지름 음수, 1 : x 위치 오류, 2 : y 위치 오오, 3 : x, y 위치 오류
+            // 0: 반지름 음수, 1 : x 위치 오류, 2 : y 위치 오오, 3 : x, y 위치 오류
+            int illegalCase = random.nextInt(3);
             int radius = random.nextInt(Integer.MAX_VALUE);
             int x;
             int y;
 
             if ((illegalCase == 1) || (illegalCase == 3)) {
-                x = (Integer.MAX_VALUE - random.nextInt(radius)) * (random.nextInt(1) == 0 ? 1 : -1);
+                x = (Integer.MAX_VALUE - random.nextInt(radius))
+                        * (random.nextInt(1) == 0 ? 1 : -1);
             } else {
-                x = random.nextInt(Integer.MAX_VALUE - radius) * (random.nextInt(1) == 0 ? 1 : -1);
+                x = random.nextInt(Integer.MAX_VALUE - radius)
+                        * (random.nextInt(1) == 0 ? 1 : -1);
             }
 
             if ((illegalCase == 2) || (illegalCase == 3)) {
-                y = (Integer.MAX_VALUE - random.nextInt(radius)) * (random.nextInt(1) == 0 ? 1 : -1);
+                y = (Integer.MAX_VALUE - random.nextInt(radius))
+                        * (random.nextInt(1) == 0 ? 1 : -1);
             } else {
-                y = random.nextInt(Integer.MAX_VALUE - radius) * (random.nextInt(1) == 0 ? 1 : -1);
+                y = random.nextInt(Integer.MAX_VALUE - radius)
+                        * (random.nextInt(1) == 0 ? 1 : -1);
             }
 
             if (illegalCase == 0) {

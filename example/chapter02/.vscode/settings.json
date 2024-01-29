@@ -1,0 +1,4 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\google_checks.xml",
+    "java.checkstyle.version": "10.13.0"
+}

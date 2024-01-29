@@ -2,20 +2,25 @@ package com.nhnacademy.exam020303;
 
 import java.awt.Color;
 import java.util.Random;
-
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.nhnacademy.PaintableBall;
-
+/**
+ * 볼을 출력해 보기 위한 테스트 프레임.
+ */
 public class Main {
+    static final int MAX_RADIUS = 50;
+    static final int MIN_RADIUS = 10;
+    static final Color[] colors = { Color.BLUE, Color.RED, Color.WHITE, Color.BLACK, Color.GREEN };
+
+    /**
+     * 테스트 메인.
+     *
+     * @param args Command line arguments
+     */
     public static void main(String[] args) {
-        final int MAX_RADIUS = 50;
-        final int MIN_RADIUS = 10;
-        final Color[] colors = { Color.BLUE, Color.RED, Color.WHITE, Color.BLACK, Color.GREEN };
 
         Logger logger = LogManager.getLogger();
 

@@ -228,7 +228,7 @@ image::./image/figure03.png[title="oval",align=center]
 ==== 확인
 
 * Source Code
-** link:../example/chapter02/src/main/java/com/nhnacademy/exam020201/XFrame.java[Frame]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020201/Main.java[Main]
 *** JFrame을 이용해 Frame 구성 실행
 ** link:../example/chapter02/src/main/java/com/nhnacademy/exam020201/PaintableBall.java[class PaintableBall]
 * 물음
@@ -276,8 +276,8 @@ image::./image/figure03.png[title="oval",align=center]
 ==== 확인
 
 * Test Code
-** link:./example/chapter02/src/test/java/com/nhnacademy/TestPaintableBall.java[TestPaintableBall]
-** link:./example/chapter02/src/test/java/com/nhnacademy/DummyGraphics.java[DummyGraphics]
+** link:./example/chapter02/src/test/java/com/nhnacademy/exam020202/TestPaintableBall.java[TestPaintableBall]
+** link:./example/chapter02/src/test/java/com/nhnacademy/exam020202/DummyGraphics.java[class DummyGraphics]
 * 물음
 ** 이 방법에 대한 장점과 단점은?
 
@@ -295,10 +295,10 @@ image::./image/figure03.png[title="oval",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter02/src/main/java/com/nhncademy/exam020203/XFrame.java[Frame]
+** link:./example/chapter02/src/main/java/com/nhnacademy/exam020203/Main.java[Main]
 *** Color를 지정하지 않고 생성
 *** 생성 후 getColor를 이용해 확인
-** link:./example/chapter02/src/main/java/com/nhncademy/PaintableBall.java[class PaintableBall]
+** link:./example/chapter02/src/main/java/com/nhnacademy/exam020203/PaintableBall.java[class PaintableBall]
 *** **Constructor overloading**
 
 

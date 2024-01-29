@@ -1,20 +1,25 @@
 package com.nhnacademy.exam020203;
 
 import java.awt.Graphics;
-
 import javax.swing.JFrame;
 
-import com.nhnacademy.PaintableBall;
-
-public class XFrame extends JFrame {
+/**
+ * 볼을 출력해 보기 위한 테스트 프레임.
+ */
+public class Main extends JFrame {
     PaintableBall ball;
 
     public void setBall(PaintableBall ball) {
         this.ball = ball;
     }
 
+    /**
+     * 테스트 메인.
+     *
+     * @param args Command line arguments
+     */
     public static void main(String[] args) {
-        XFrame frame = new XFrame();
+        Main frame = new Main();
 
         frame.setSize(200, 200);
 
