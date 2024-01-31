@@ -1,0 +1,3 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\chapter03\\google_checks.xml"
+}
