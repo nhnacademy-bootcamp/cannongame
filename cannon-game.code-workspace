@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "chapter02",
+			"path": "example/chapter02"
+		},
+		{
+			"name": "Document",
+			"path": "./"
+		},
+		{
+			"path": "example/chapter03"
+		},
+		{
+			"path": "example/chapter04"
+		},
+		{
+			"path": "example/chapter05"
+		},
+		{
+			"path": "example/chapter06"
+		}
+	],
+	"settings": {
+		"asciidoc.antora.enableAntoraSupport": true,
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"maven.view": "hierarchical"
+	}
+}

@@ -69,12 +69,13 @@ Ball class 코드를 보도록 하자.
 
 예를 들어, ball을 30도 각도(stem:[\theta])를 10만큼의 크기(stem:[v])로 쏜다고 해보자. x축과 y축의 변화량은 얼마인가?
 
-$$
+[steam]
+---
 \begin{align*}
 dx = v sin \theta\\
 dy = v cos \theta
 \end{align*}
-$$
+---
 
 계산은 가능하다. 하지만, 이것을 매번 하거나 여러 변위량이 중첩하게 된다면 매우 복잡한 계산을 반복적으로 해야 하는 번거로움이 생길 것이다.
 
