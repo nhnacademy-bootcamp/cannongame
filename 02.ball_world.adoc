@@ -306,16 +306,16 @@ image::./image/figure03.png[title="oval",align=center]
 
 === 정의
 
+* world내에서 동작할 ball 관리
+** ball 추가
+** ball 삭제
+*** 삭제할 ball을 주거나 순번으로 지정
+** ball 가져오기
+*** 순번 지정
+** ball 갯수 얻기
+** graphics context가 주어지면, 이를 이용해 그리기
 * ball이 존재할 공간이면서 화면에 출력될 영역
-** world내에서 동작할 ball은 world에서 관리
-*** 볼 추가
-*** 볼 삭제
-**** 삭제할 볼을 주거나 인덱스로 지시
-*** 특정 번째 볼 가져오기
-*** 볼 갯수
-*** 그리기
-* Swing component
-** JPanel 확장
+** Swing component JPanel 확장
 ** 전체 프로그램의 틀이 될 JFrame 생성 후 world 추가하여 실행
  
 {empty} + 
@@ -392,8 +392,7 @@ image::./image/figure04.png[title="실행 화면",align=center]
 
 * world
 ** 크기 가로 400, 세로 300
-** 볼이 추가될때 마다 로그 출력
-** Frame에서 화면을 그려야 하는 시점에 호출되는 paint 함수 추가 필요
+** ball이 추가될때 마다 로그 출력
 * paintable ball
 ** 10개 생성하여 추가
 ** world 내 임의 위치
@@ -402,7 +401,7 @@ image::./image/figure04.png[title="실행 화면",align=center]
 *** BLUE, RED, WHITE, BLACK, GREEN
 * 주의할 점
 ** 지금까지 정의한 ball은 두 종류
-** World에는 Ball type 등록 가능
+** World에는 Ball 등록 가능
 
 image::./image/figure05.png[title="World & Balls",align=center]
 
