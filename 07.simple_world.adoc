@@ -28,8 +28,33 @@ World class는 출력되는 오브젝트들은 모두 일정한 영역을 갖는
 
 ==== Method
 
-* Rectangle getRegion()
-** 영역 가져오기
+*  public Point getLocation()
+** Region의 위치.
+** 영역의 중심
+
+* public int getWidth()
+** 영역의 폭
+
+* int getHeight();
+** 영역의 높이
+
+* int getMinX();
+** 영역의 최소 X 좌표
+
+* int getMaxX();
+** 영역의 최대 X 좌표
+
+* public int getMinY();
+** 영역의 최소 Y 좌표
+
+* public int getMaxY();
+** 영역의 최대 Y 좌표
+
+* public boolean intersects(Region other);
+** 영역간 교차 영역 존재 여부
+
+* public Region intersection(Region other);
+** 영역간 교차 영역
 
 ---
 
@@ -56,6 +81,9 @@ World class는 도형을 받아서 화면에 출력하는 작업을 한다. 따�
 {empty} +
 
 ==== Method
+
+* void getColor()
+** 색 얻어 오기
 
 * void paint(Graphics g)
 ** 그리기
@@ -121,11 +149,11 @@ image::./image/figure35.png"[title="Exam-26",align=center]
 
 ==== Method
 
-* Rectangle getBounds()
+* Region getBounds()
 ** 경계 정보
-* void setBounds(Rectangle bounds)
+* void setBounds(Region bounds)
 ** 경계 정보 설정
-* boolean isOutOfBounds(Rectangle bounds)
+* boolean isOutOfBounds(Region bounds)
 ** 이동 후 경계를 벗어났는지 확인
 * void bounce()
 * 경계를 벗어 경우 벽에서 튕김

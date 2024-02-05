@@ -96,7 +96,7 @@ image::./image/figure32.png"[title="fillRect",align=center]
 
 * Source Code
 ** link:./example/chapter06/src/main/java/com/nhnacademy/exam060201/PaintableBox.java[class PaintableBox]
- 
+
 == 6-3. Ball과 Box
 
 
@@ -124,13 +124,13 @@ box를 관리하기 위한 필드를 추가할뿐만 아니라 관련된 함수�
 
 이는 World class가 확장성을 전혀 가지고 있지 못하다는 것을 보여 준다.
 
-두 번째 방법으로 Ball class와  Box class의 상위 class인 Object class를 이용하는 방법이 있을 수 있다.
+두 번째 방법으로 Ball class와  Box class의 상위 class로 Region class를 이용하는 방법이 있을 수 있다.
 
 ---
 
-=== Exam-6-1-4. World class의 오브젝트들을 Obect class로 단일화시켜 관리토록 바꿔 보자
+=== Exam-6-1-4. World class의 오브젝트들을 Region class로 단일화시켜 관리토록 바꿔 보자
 
-* Ball과 Box를 각각 관리하지 않고, 공통 super class인 Object로 관리
+* Ball과 Box를 각각 관리하지 않고, 공통 super class인 Region으로 관리
 +
 image::./image/figure34.png"[title="exam_6_1_3_1",align=center]
 
