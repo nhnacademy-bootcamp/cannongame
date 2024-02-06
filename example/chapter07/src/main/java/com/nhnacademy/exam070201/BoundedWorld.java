@@ -1,4 +1,4 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070201;
 
 public class BoundedWorld extends MovableWorld {
     public boolean outOfBounds(Regionable regionable) {

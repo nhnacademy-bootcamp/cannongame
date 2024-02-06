@@ -1,9 +1,9 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class PaintableBox extends Box {
+public class PaintableBox extends Box implements Paintable {
     public static final Color DEFAULT_COLOR = Color.RED;
     Color color;
 

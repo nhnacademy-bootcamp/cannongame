@@ -1,4 +1,4 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -60,10 +60,8 @@ public class World extends JPanel {
     public void paint(Graphics g) {
         super.paint(g);
         for (Regionable item : regionableList) {
-            if (item instanceof PaintableBall) {
-                ((PaintableBall) item).paint(g);
-            } else if (item instanceof PaintableBox) {
-                ((PaintableBox) item).paint(g);
+            if (item instanceof Paintable) {
+                ((Paintable) item).paint(g);
             }
         }
 

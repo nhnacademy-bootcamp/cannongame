@@ -1,4 +1,4 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.util.Random;
 
@@ -19,6 +19,7 @@ public class Main {
         final int WORLD_HEIGHT = 300;
         final int BALL_COUNT = 1;
         final int BOX_COUNT = 1;
+        final int TRIANGLE_COUNT = 1;
         final int MAX_MOVE_COUNT = 0;
         final int DELTA_TIME = 10;
 
@@ -66,6 +67,26 @@ public class Main {
 
             try {
                 world.add(box);
+            } catch (IllegalArgumentException ignore) {
+                //
+            }
+        }
+
+        while (world.getCount() < BALL_COUNT + BOX_COUNT + TRIANGLE_COUNT) {
+            int width = MIN_WIDTH + random.nextInt(MAX_WIDTH - MIN_WIDTH + 1);
+            int height = MIN_HEIGHT + random.nextInt(MAX_HEIGHT - MIN_HEIGHT + 1);
+            int x = width / 2 + random.nextInt(WORLD_WIDTH - width);
+            int y = height / 2 + random.nextInt(WORLD_HEIGHT - height);
+            MovableTriangle triangle = new MovableTriangle(new Point(x, y), width, height);
+            int dx = MIN_DELTA + random.nextInt(MAX_DELTA - MIN_DELTA + 1);
+            int dy = MIN_DELTA + random.nextInt(MAX_DELTA - MIN_DELTA + 1);
+
+            String sequence = "00" + (world.getCount() + 1);
+            triangle.setName("triangle_" + sequence.substring(sequence.length() - 2));
+            triangle.setMotion(Motion.createPosition(dx, dy));
+
+            try {
+                world.add(triangle);
             } catch (IllegalArgumentException ignore) {
                 //
             }

@@ -1,4 +1,4 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.util.UUID;
 
@@ -13,8 +13,7 @@ public class Ball extends Region {
     public Ball(Point location, int radius) {
         super(location, 2 * radius, 2 * radius);
 
-        if ((radius <= 0)
-                || ((location.getX() - radius) > location.getX())
+        if (((location.getX() - radius) > location.getX())
                 || ((location.getX() + radius) < location.getX())
                 || ((location.getY() - radius) > location.getY())
                 || ((location.getY() + radius) < location.getY())) {

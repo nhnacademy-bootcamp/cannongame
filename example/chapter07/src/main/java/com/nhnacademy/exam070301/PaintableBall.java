@@ -1,20 +1,20 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070301;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class PaintableBox extends Box {
-    public static final Color DEFAULT_COLOR = Color.RED;
+public class PaintableBall extends Ball implements Paintable {
+    public static final Color DEFAULT_COLOR = Color.BLUE;
     Color color;
 
-    public PaintableBox(Point location, int width, int height, Color color) {
-        super(location, width, height);
+    public PaintableBall(Point location, int radius, Color color) {
+        super(location, radius);
 
         this.color = color;
     }
 
-    public PaintableBox(Point location, int width, int height) {
-        this(location, width, height, DEFAULT_COLOR);
+    public PaintableBall(Point location, int radius) {
+        this(location, radius, DEFAULT_COLOR);
     }
 
     public Color getColor() {
@@ -28,7 +28,7 @@ public class PaintableBox extends Box {
 
         Color previousColor = g.getColor();
         g.setColor(getColor());
-        g.fillRect(getMinX(), getMinY(), getWidth(), getWidth());
+        g.fillOval(getMinX(), getMinY(), getWidth(), getWidth());
         g.setColor(previousColor);
     }
 }

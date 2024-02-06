@@ -1,4 +1,4 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.awt.Rectangle;
 

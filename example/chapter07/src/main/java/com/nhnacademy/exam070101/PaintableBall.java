@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class PaintableBall extends Ball {
-    public static final Color DEFAULT_COLOR = Color.BLACK;
+    public static final Color DEFAULT_COLOR = Color.BLUE;
     Color color;
 
     public PaintableBall(Point location, int radius, Color color) {

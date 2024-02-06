@@ -1,23 +1,22 @@
-package com.nhnacademy.exam070101;
+package com.nhnacademy.exam070401;
 
 import java.util.UUID;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Ball extends Region {
+public class Triangle extends Region {
     String id = UUID.randomUUID().toString();
     String name = id;
     Logger logger;
 
-    public Ball(Point location, int radius) {
-        super(location, 2 * radius, 2 * radius);
+    public Triangle(Point location, int width, int height) {
+        super(location, width, height);
 
-        if ((radius <= 0)
-                || ((location.getX() - radius) > location.getX())
-                || ((location.getX() + radius) < location.getX())
-                || ((location.getY() - radius) > location.getY())
-                || ((location.getY() + radius) < location.getY())) {
+        if (((location.getX() - width / 2) > location.getX())
+                || ((location.getX() + width / 2) < location.getX())
+                || ((location.getY() - height / 2) > location.getY())
+                || ((location.getY() + height / 2) < location.getY())) {
             throw new IllegalArgumentException();
         }
 
@@ -34,10 +33,6 @@ public class Ball extends Region {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getRadius() {
-        return (getWidth() / 2);
     }
 
     public Logger getLogger() {
