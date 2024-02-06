@@ -12,9 +12,7 @@ public class Box extends Region {
 
     public Box(Point location, int width, int height) {
         super(location, width, height);
-
-        if ((width <= 0) || (height <= 0)
-                || ((location.getX() - width / 2.0) > location.getX())
+        if (((location.getX() - width / 2.0) > location.getX())
                 || ((location.getX() + width / 2.0) < location.getX())
                 || ((location.getY() - height / 2.0) > location.getY())
                 || ((location.getY() + height / 2.0) < location.getY())) {
@@ -36,7 +34,15 @@ public class Box extends Region {
         this.name = name;
     }
 
-    public boolean isCollision(Region other) {
+    void setLocation(Point location) {
+        moveTo(location);
+    }
+
+    public boolean isCollision(Box other) {
+        return intersects(other);
+    }
+
+    public boolean isCollision(Ball other) {
         return intersects(other);
     }
 

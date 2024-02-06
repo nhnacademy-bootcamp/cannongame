@@ -8,6 +8,10 @@ public class Region {
     int height;
 
     public Region(Point location, int width, int height) {
+        if (width <= 0 || height <= 0) {
+            throw new IllegalArgumentException();
+        }
+
         this.location = new Point(location);
         this.width = width;
         this.height = height;
@@ -51,7 +55,7 @@ public class Region {
         location.move(motion);
     }
 
-    protected void moveTo(Point location) {
+    public void moveTo(Point location) {
         this.location.moveTo(location);
     }
 

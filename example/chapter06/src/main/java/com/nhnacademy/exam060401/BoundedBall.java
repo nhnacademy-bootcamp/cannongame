@@ -26,7 +26,7 @@ public class BoundedBall extends MovableBall {
     }
 
     public boolean isOutOfBounds() {
-        return equals(bounds.intersection(this));
+        return !equals(bounds.intersection(this));
     }
 
     public void bounce() {

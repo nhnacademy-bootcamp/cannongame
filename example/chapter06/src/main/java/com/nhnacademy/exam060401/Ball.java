@@ -12,9 +12,7 @@ public class Ball extends Region {
 
     public Ball(Point location, int radius) {
         super(location, 2 * radius, 2 * radius);
-
-        if ((radius <= 0)
-                || ((location.getX() - radius) > location.getX())
+        if (((location.getX() - radius) > location.getX())
                 || ((location.getX() + radius) < location.getX())
                 || ((location.getY() - radius) > location.getY())
                 || ((location.getY() + radius) < location.getY())) {
@@ -36,11 +34,19 @@ public class Ball extends Region {
         this.name = name;
     }
 
+    void setLocation(Point location) {
+        moveTo(location);
+    }
+
     public int getRadius() {
         return (getWidth() / 2);
     }
 
-    public boolean isCollision(Region other) {
+    public boolean isCollision(Ball other) {
+        return intersects(other);
+    }
+
+    public boolean isCollision(Box other) {
         return intersects(other);
     }
 
