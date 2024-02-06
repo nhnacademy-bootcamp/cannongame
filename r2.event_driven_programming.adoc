@@ -43,7 +43,7 @@ Java AWT와 swing에서 구현된 이벤트의 종류들에는 아래와 같은 
 |===
 ^s| 이벤트          ^s| 발생 상황
 ^s| ActionEvent     | 오브젝트의 상태 변화, 즉, 클릭, 메뉴 선택, 입력 완료 등 사용자의 행동과 관련된 이벤트
-^s| ItemEvent       | 오브젝트에 포함된 여러 개의 아이템 중 하나 이상이 선택될 경우 발생하는 이벤트 
+^s| ItemEvent       | 오브젝트에 포함된 여러 개의 아이템 중 하나 이상이 선택될 경우 발생하는 이벤트
 ^s| KeyEvent        | 키보드 키 입력
 ^s| MouseEvent      | 마우스 커서의 이동이나 버튼의 상태 변화가 발생할 경우
 ^s| FocusEvent      | 컴포넌트가 선택되거나 해제된 경우
@@ -63,7 +63,7 @@ Java AWT와 swing에서는 이벤트 소스에 이벤트 listener를 등록하�
 
 [cols="1,1,2"]
 |===
-^s| 이벤트 소스       ^s| 이벤트          ^s| 발생 상황 
+^s| 이벤트 소스       ^s| 이벤트          ^s| 발생 상황
 | Container         | ContainerEvent  | 컨테이너에 컴포넌트의 추가/삭제
 | Component         | ComponentEvent  | 컴포넌트가 사라지거나 이동, 크기 변경
 |                   | FocusEvent      | 컴포넌트가 포커스를 받거나 잃을 때
@@ -71,7 +71,7 @@ Java AWT와 swing에서는 이벤트 소스에 이벤트 listener를 등록하�
 |                   | MouseEvent      | 마우스 버튼을 누르거나 뗄 때, 마우스 버튼을 클릭할 때, 컴포넌트 위에 마우스가 올라갈 때 등..
 | Window            | WindowEvent     | Window를 상속받는 모든 컴포넌트에 대해 window 활성화, 비활성화 등
 | JButton           | ActionEvent     | 마우스로 버튼 클릭
-| JList             | ActionEvent     | 아이템을 더블클릭하여 리스트 아이템 선택 
+| JList             | ActionEvent     | 아이템을 더블클릭하여 리스트 아이템 선택
 | JMenuItem         | ActionEvent     | 특정 메뉴의 선택
 | JTextField        | ActionEvent     | 텍스트를 입력한 후 엔터키 입력
 | JCheckBox         | ItemEvent       | 체크박스의 선택/해제
@@ -99,7 +99,7 @@ Java에서 유효한 event listener interface는 아래와 같은 종류들이 �
 ^s| Evnet ^s| Event Listener Interface ^s| 설명
 | ActionEvent    | ActionListener           | 버튼 클릭이나 텍스트 필드 변경 등의 작업에 응답한다.
 | ItemEvent      | ItemListener             | 개별 항목 변경 사항을 수신한다.(예: checkbox)
-| KeyEvent       | KeyListener              | 키보드 입력을 수신한다. 
+| KeyEvent       | KeyListener              | 키보드 입력을 수신한다.
 | MouseEvent     | MouseListener            | 마우스에서  발생하는 이벤트를 수신한다(예 : 클릭, 더블 클릭, 오른쪽 클릭 등)
 |                | MouseMotionListener      | 마우스 움직임을 수신한다.
 | FocusEvent     | FocusListener            | component가 포커스를 받거나 잃을 때 수신한다.
@@ -228,3 +228,7 @@ class OpacityFrameEx1 extends JFrame implements ChangeListener {
 ----
 
 == R2-2. 사용자 정의 이벤트
+
+---
+
+link:./00.index.adoc[돌아가기]

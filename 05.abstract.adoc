@@ -13,7 +13,7 @@
 * 2차원 평면에서 X축 정보와 Y축 정보가 함께 존재할 때 의미를 가짐
 * awt에서 2차원 평면상의 특정 지점을 표현하기 위해 Point class를 정의하고 있음
 
---- 
+---
 
 === Exam-5-1-1. Ball class에서 Point class를 사용하도록 수정하라.
 
@@ -119,10 +119,10 @@ Motion은 수학과 물리학에서 이야기하는 벡터로서 각각의 성�
 ** X축 +방향을 기준으로한 각도
 * int getMagnitude()
 ** 크기
-* void turnDX() 
+* void turnDX()
 ** Y축을 기준으로 방향 전환
 ** x => -x
-* void turnDY() 
+* void turnDY()
 ** X축을 기준으로 방향 전환
 ** y => -y
 
@@ -143,10 +143,10 @@ Motion은 수학과 물리학에서 이야기하는 벡터로서 각각의 성�
 ** link:./example/chapter05/src/main/java/com/nhnacademy/exam050301/Motion.java[class Motion]
 * 물음
 * Position Vector와  Displacement Vector간에는 변환이 자유롭다. 여기서도 그러한가?
-* 그렇지 않다면 무엇이 문제인가? 
+* 그렇지 않다면 무엇이 문제인가?
 * 해결 방법은?
 
---- 
+---
 
 === Exam-5-3-2. Motion class를 JUnit으로 확인하라.
 
@@ -213,11 +213,11 @@ public class MovableBall extends Ball {
 ==== 확인
 
 * Source Code
-** link:./example/chapter05/src/main/java/com/nhnacademy/exam050401/MovableBall.java[class MovableBall] 
+** link:./example/chapter05/src/main/java/com/nhnacademy/exam050401/MovableBall.java[class MovableBall]
 * 물음
 ** 무엇이 달라지고, 그 의미는 무엇인가?
 ** 코드의 복잡도는 어떻게 달라졌는가?
 
 ---
 
-link:./index.adoc[돌아가기]
+link:./00.index.adoc[돌아가기]

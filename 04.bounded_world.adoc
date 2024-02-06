@@ -93,8 +93,8 @@ image::./image/figure16.png"[title="볼과 경계영역",align=center]
 +
 image::./image/figure17.png"[title="실행 결과",align=center]
 * 물음
-** 단위 시간을 길게 주면 ball이 경계영역에 벗어나는 시점에 튕지 않고, 일부는 영역을 벗어났다 튕겨 들어오는 것을 볼 수 있다. 
-*** 왜 그럴까? 
+** 단위 시간을 길게 주면 ball이 경계영역에 벗어나는 시점에 튕지 않고, 일부는 영역을 벗어났다 튕겨 들어오는 것을 볼 수 있다.
+*** 왜 그럴까?
 *** 해결 방법은?
 
 ---
@@ -290,7 +290,7 @@ ball 간 거리가 두 ball의 반지름 합보다 작을 경우, 두 ball은 �
 
 === Exam-4-3-1. 가려지는 ball이 없도록 생성하라
 
-임의의 위치에 생성한 결과 일부 ball이 겹침을 ball 수 있다. 
+임의의 위치에 생성한 결과 일부 ball이 겹침을 ball 수 있다.
 
 이는 앞서 추가된 ball이 어디에 얼만한 크기로 존재하는지 확인하지 않고 추가해 발생한 문제이다.
 
@@ -335,7 +335,7 @@ image::./image/figure25.png"[title="볼과 박스 간 거리",align=center]
 
 복잡한 식을 이용하면 구할 수도 있을 것이다.
 
-**하지만, 본 과정에서는 중요한 문제가 되지 않는다.**  
+**하지만, 본 과정에서는 중요한 문제가 되지 않는다.**
 
 이러한 경우, 물체가 충돌한 조건을 정의하고 충돌 시 그에 대한 행동만 정의할 수 있으면 된다.
 
@@ -356,7 +356,7 @@ image::./image/figure27.png"[title="중첩되지 않는 ball",align=center]
 
 ==== 확인
 
-* Source Code 
+* Source Code
 ** link:./example/chapter04/src/main/java/com/nhnacademy/exam040302/Ball.java[class Ball]
 *** ball이 들어갈 수 있는 최소 4각 영역을 돌려주는 getRegion 함수 추가
 *** ball간 충돌을 중심점 거리 계산에서 영역 계산으로 변경
@@ -410,5 +410,5 @@ image::./image/figure29.png"[title="중첩 영역",align=center]
 
 ---
 
-link:./index.adoc[돌아가기]
+link:./00.index.adoc[돌아가기]
 

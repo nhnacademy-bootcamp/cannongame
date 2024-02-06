@@ -50,10 +50,10 @@ World class는 출력되는 오브젝트들은 모두 일정한 영역을 갖는
 * public int getMaxY();
 ** 영역의 최대 Y 좌표
 
-* public boolean intersects(Region other);
+* public boolean intersects(Regionable other);
 ** 영역간 교차 영역 존재 여부
 
-* public Region intersection(Region other);
+* public Regionable intersection(Regionable other);
 ** 영역간 교차 영역
 
 ---
@@ -128,8 +128,6 @@ image::./image/figure35.png"[title="Exam-26",align=center]
 ** 설정되어 있는 단위 시간당 이동량
 * void move()
 ** 단위 시간당 이동량만큼 이동하기
-* void moveTo(int x, int y)
-** 특정 위치로 이동하기
 
 ---
 
@@ -141,7 +139,19 @@ image::./image/figure35.png"[title="Exam-26",align=center]
 
 ---
 
-== 7-3. Bounded 인터페이스
+== 7-4. 새로운 물체 추가
+
+=== 정의
+
+* Triangle 추가
+* Region을 설정하고, Region에 들어가는 triangle
+* Ball, Box와 같이 그려지고, 움직임
+
+=== Exam-7-4-1. Triangle, PaintableTriangle, MovableTriangle을 추가하라.
+
+* 단, World, MovableWorld, BoundedWorld의 수정은 없어야 한다.
+
+== 7-5. Bounded 인터페이스
 
 === 정의
 
@@ -149,19 +159,19 @@ image::./image/figure35.png"[title="Exam-26",align=center]
 
 ==== Method
 
-* Region getBounds()
+* Regionable getBounds()
 ** 경계 정보
-* void setBounds(Region bounds)
+* void setBounds(Regionable bounds)
 ** 경계 정보 설정
-* boolean isOutOfBounds(Region bounds)
+* boolean isOutOfBounds(Regionable bounds)
 ** 이동 후 경계를 벗어났는지 확인
 * void bounce()
 * 경계를 벗어 경우 벽에서 튕김
 
 ---
 
-=== Exam-7-3-2. BoundedBall과 BoundedWorld도 Bounded 인터페이스를 선언해 해결하는 것과 같은 방법으로 해결하라
+=== Exam-7-5-1. BoundedBall과 BoundedWorld도 Bounded 인터페이스를 선언해 해결하는 것과 같은 방법으로 해결하라
 
 ---
 
-link:./index.adoc[돌아가기]
+link:./00.index.adoc[돌아가기]

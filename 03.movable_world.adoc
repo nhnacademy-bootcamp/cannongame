@@ -38,7 +38,7 @@ image::./image/figure07.png[title="Movable Ball",align=center]
 {empty} +
 
 ==== Method
- 
+
 * int getDX()
 ** 단위 시간당 x축으로 이동량 가져오기
 * int getDY()
@@ -348,4 +348,4 @@ image::./image/figure13.png"[title="단위시간 오차 보정",align=center]
 
 ---
 
-link:./index.adoc[돌아가기]
+link:./00.index.adoc[돌아가기]

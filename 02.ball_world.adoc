@@ -79,7 +79,7 @@ image::./image/figure02.png[title="Ball",align=center]
 * 각 변수의 값을 요청할 수 있다.
 ** x, y, radius
 * **코딩 규칙을 따라 작성**한다.
-** VSCode 또는 IntelliJ에 SonarLint와 CheckStyle을 설치하여 확인한다. 
+** VSCode 또는 IntelliJ에 SonarLint와 CheckStyle을 설치하여 확인한다.
 * class Ball를 참고하라
 +
 [source,java]
@@ -145,13 +145,13 @@ public class Ball {
 
 {empty} +
 
---- 
+---
 
 === Exam-2-1-3. JUnit을 이용해 테스트 코드를 작성하여 확인해 보라.
 
 ** https://junit.org/junit5/docs/current/user-guide/#overview-getting-started[JUnit5 User Guide]
 ** 동일한 기능 확인을 N번 반복해서 실행하도록 가능하다.
-*** https://junit.org/junit5/docs/current/user-guide/#writing-tests-repeated-tests[@RepeatedTest] 
+*** https://junit.org/junit5/docs/current/user-guide/#writing-tests-repeated-tests[@RepeatedTest]
 *** https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/RepetitionInfo.html[RepetitionInfo]
 
 {empty} +
@@ -179,7 +179,7 @@ public class Ball {
 * Color color
 ** 볼 색상
 ** 생성할 때 생략 가능
-** 생략 시 
+** 생략 시
 *** 기본값으로 검은색(BLACK)
 
 {empty} +
@@ -244,7 +244,7 @@ image::./image/figure03.png[title="oval",align=center]
 
 * Test code를 사용할 경우, 화면 출력 검증이 어려워 해당 기능을 대신할 것이 필요
 * Graphics를 검증 가능한 형태인 DummyGraphics를 정의하여 사용
-* Graphics를 확장해서 만든 DummyGraphics를 이용해 해당 함수가 정상적으로 동작하는지 확인 
+* Graphics를 확장해서 만든 DummyGraphics를 이용해 해당 함수가 정상적으로 동작하는지 확인
 
 {empty} +
 
@@ -283,7 +283,7 @@ image::./image/figure03.png[title="oval",align=center]
 
 {empty} +
 
---- 
+---
 
 === Exam-2-2-3. Color를 지정하지 않을 경우, 기본 값을 사용하도록 수정하라.
 
@@ -317,8 +317,8 @@ image::./image/figure03.png[title="oval",align=center]
 * ball이 존재할 공간이면서 화면에 출력될 영역
 ** Swing component JPanel 확장
 ** 전체 프로그램의 틀이 될 JFrame 생성 후 world 추가하여 실행
- 
-{empty} + 
+
+{empty} +
 
 ==== Variable
 
@@ -326,7 +326,7 @@ image::./image/figure03.png[title="oval",align=center]
 ** ball 관리
 ** https://en.wikipedia.org/wiki/List_(abstract_data_type)[List(abstract data type)]
 
-{empty} + 
+{empty} +
 
 ==== Method
 
@@ -360,7 +360,7 @@ image::./image/figure03.png[title="oval",align=center]
 
 image::./image/figure04.png[title="실행 화면",align=center]
 
-{empty} + 
+{empty} +
 
 ==== 확인
 
@@ -448,3 +448,7 @@ image::./image/figure05.png[title="World & Balls",align=center]
 ** link:./example/chapter02/src/main/java/com/nhnacademy/exam020303/World.java[class World]
 *** Ball 추가 시점에 영역이 벗어나는지 확인
 *** 영역을 벗어난 ball을 등록할 경우, world에서는 exception을 발생시킴
+
+---
+
+link:./00.index.adoc[돌아가기]
