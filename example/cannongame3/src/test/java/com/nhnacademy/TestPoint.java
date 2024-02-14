@@ -1,3 +1,5 @@
+package com.nhnacademy;
+
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -7,9 +9,6 @@ import java.util.Random;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
-
-import com.nhnacademy.OutOfBoundsException;
-import com.nhnacademy.Point;
 
 class TestPoint {
     static Random random = new Random();

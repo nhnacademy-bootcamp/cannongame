@@ -8,5 +8,10 @@ public interface Paintable {
 
     public void setColor(Color color);
 
+    /**
+     * 주어진 graphics context를 이용해 형태를 그린다.
+     *
+     * @param graphics Graphics context
+     */
     public void paint(Graphics graphics);
 }

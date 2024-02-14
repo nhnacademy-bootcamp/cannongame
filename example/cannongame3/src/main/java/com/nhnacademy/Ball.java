@@ -1,5 +1,8 @@
 package com.nhnacademy;
 
+/**
+ * Ball class
+ */
 public class Ball extends Region {
     public Ball(Point loaction, int radius) {
         super(loaction, 2 * radius, 2 * radius);

@@ -17,6 +17,14 @@ public class World extends JPanel {
         regionList.remove(region);
     }
 
+    public Region getRegion(int index) {
+        return regionList.get(index);
+    }
+
+    public int getRegionCount() {
+        return regionList.size();
+    }
+
     @Override
     public void paint(Graphics graphics) {
         super.paint(graphics);

@@ -1,12 +1,10 @@
+package com.nhnacademy;
+
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
 
 import org.junit.jupiter.api.Test;
-
-import com.nhnacademy.OutOfBoundsException;
-import com.nhnacademy.Point;
-import com.nhnacademy.Region;
 
 class TestRegion {
     @Test
