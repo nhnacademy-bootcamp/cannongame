@@ -1,7 +1,5 @@
 package com.nhnacademy;
 
-import java.awt.Point;
-
 public class Location {
     int x;
     int y;
