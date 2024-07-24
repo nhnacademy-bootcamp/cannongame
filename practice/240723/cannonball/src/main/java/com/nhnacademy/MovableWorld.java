@@ -12,11 +12,11 @@ public class MovableWorld extends World {
     }
 
     public void move() {
-        for (int i = 0; i < getBallCount(); i++) {
-            Ball ball = getBall(i);
+        for (int i = 0; i < getCount(); i++) {
+            Regionable object = get(i);
 
-            if (ball instanceof MovableBall) {
-                ((MovableBall) ball).move();
+            if (object instanceof Movable) {
+                ((Movable) object).move();
             }
         }
 
@@ -31,7 +31,6 @@ public class MovableWorld extends World {
             try {
                 Thread.sleep(dt);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

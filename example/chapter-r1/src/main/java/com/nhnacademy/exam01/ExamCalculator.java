@@ -19,7 +19,6 @@ public class ExamCalculator {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            // TODO Auto-generated method stub
             throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
         }
     }

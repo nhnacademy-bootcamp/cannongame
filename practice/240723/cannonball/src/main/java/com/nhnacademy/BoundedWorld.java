@@ -1,23 +1,21 @@
 package com.nhnacademy;
 
-import java.awt.Rectangle;
-
 public class BoundedWorld extends MovableWorld {
-    public boolean outOfBounds(Ball ball) {
-        return (ball.getMinX() < getBounds().getMinX())
-                || ball.getMaxX() > getBounds().getMaxX()
-                || ball.getMinY() < getBounds().getMinY()
-                || ball.getMaxY() > getBounds().getMaxY();
+    public boolean outOfBounds(Regionable object) {
+        return (object.getMinX() < getBounds().getMinX())
+                || object.getMaxX() > getBounds().getMaxX()
+                || object.getMinY() < getBounds().getMinY()
+                || object.getMaxY() > getBounds().getMaxY();
     }
 
-    public void bounceBall(MovableBall ball) {
-        if (outOfBounds(ball)) {
-            if ((ball.getMinX() < getBounds().getMinX()) || (ball.getMaxX() > getBounds().getMaxX())) {
-                ball.setDX(-ball.getDX());
+    public void bounce(Movable object) {
+        if (outOfBounds(object)) {
+            if ((object.getMinX() < getBounds().getMinX()) || (object.getMaxX() > getBounds().getMaxX())) {
+                object.getMotion().turnDX();
             }
 
-            if ((ball.getMinY() < getBounds().getMinY()) || (ball.getMaxY() > getBounds().getMaxY())) {
-                ball.setDY(-ball.getDY());
+            if ((object.getMinY() < getBounds().getMinY()) || (object.getMaxY() > getBounds().getMaxY())) {
+                object.getMotion().turnDY();
             }
         }
     }
@@ -26,32 +24,32 @@ public class BoundedWorld extends MovableWorld {
     public void move() {
         super.move();
 
-        for (int i = 0; i < getBallCount(); i++) {
-            Ball ball = getBall(i);
+        for (int i = 0; i < getCount(); i++) {
+            Regionable object = get(i);
 
-            if (ball instanceof MovableBall) {
-                for (int j = 0; j < getBallCount(); j++) {
-                    Ball otherBall = getBall(j);
+            if (object instanceof Movable) {
+                for (int j = 0; j < getCount(); j++) {
+                    Regionable other = get(j);
 
-                    if ((ball != otherBall) && (ball.getBounds().intersects(otherBall.getBounds()))) {
-                        Rectangle itersection = ball.getBounds().intersection(otherBall.getBounds());
+                    if ((object != other) && (object.intersects(other))) {
+                        Region itersection = object.intersection(other);
 
-                        if (ball.getBounds().getWidth() < otherBall.getBounds().getWidth()) {
-                            if (itersection.getWidth() < ball.getBounds().getWidth()) {
-                                ((MovableBall) ball).setDX(-((MovableBall) ball).getDX());
+                        if (object.getWidth() < other.getWidth()) {
+                            if (itersection.getWidth() < object.getWidth()) {
+                                ((Movable) object).getMotion().turnDX();
                             }
 
-                            if (itersection.getHeight() < ball.getBounds().getHeight()) {
-                                ((MovableBall) ball).setDY(-((MovableBall) ball).getDY());
+                            if (itersection.getHeight() < object.getHeight()) {
+                                ((Movable) object).getMotion().turnDY();
                             }
 
                         } else {
-                            if (itersection.getWidth() < otherBall.getBounds().getWidth()) {
-                                ((MovableBall) ball).setDX(-((MovableBall) ball).getDX());
+                            if (itersection.getWidth() < other.getWidth()) {
+                                ((Movable) object).getMotion().turnDX();
                             }
 
-                            if (itersection.getHeight() < otherBall.getBounds().getHeight()) {
-                                ((MovableBall) ball).setDY(-((MovableBall) ball).getDY());
+                            if (itersection.getHeight() < other.getHeight()) {
+                                ((Movable) object).getMotion().turnDY();
                             }
 
                         }
@@ -60,10 +58,10 @@ public class BoundedWorld extends MovableWorld {
             }
         }
 
-        for (int i = 0; i < getBallCount(); i++) {
-            Ball ball = getBall(i);
-            if (ball instanceof MovableBall) {
-                bounceBall((MovableBall) ball);
+        for (int i = 0; i < getCount(); i++) {
+            Regionable object = get(i);
+            if (object instanceof Movable) {
+                bounce((Movable) object);
             }
         }
     }

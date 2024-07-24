@@ -136,7 +136,7 @@ image::./image/figure34.png"[title="exam_6_1_3_1",align=center]
 
 ==== 확인
 
-* link:../src/main/java/com/nhnacademy/World.java[class World]
+* link:./example/chapter06/src/main/java/com/nhnacademy/exam060401/World.java[class World]
 * 새로운 종류 추가에 문제가 없는가?
 * paint에서 Object class에 대해 처리가 가능한가?
 

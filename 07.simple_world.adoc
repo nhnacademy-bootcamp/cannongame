@@ -64,7 +64,7 @@ World class는 출력되는 오브젝트들은 모두 일정한 영역을 갖는
 
 ==== 확인
 
-*link:../src/main/java/com/nhnacademy/World.java[class World]
+* link:./example/chapter07/src/main/java/com/nhnacademy/exam070101/World.java[class World]
 * 어떠한 문제점이 있는가?
 * 해결 방법은? Regionable에 그리기 함수 추가?
 

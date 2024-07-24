@@ -2,15 +2,15 @@ package com.nhnacademy;
 
 import java.awt.Color;
 
-public class MovableBall extends PaintableBall implements Movable {
+public class MovableBox extends PaintableBox implements Movable {
     Vector motion = new PositionalVector(0, 0);
 
-    public MovableBall(int x, int y, int radius, Color color) {
-        super(x, y, radius, color);
+    public MovableBox(int x, int y, int width, int height, Color color) {
+        super(x, y, width, height, color);
     }
 
-    public MovableBall(int x, int y, int radius) {
-        super(x, y, radius);
+    public MovableBox(int x, int y, int width, int height) {
+        super(x, y, width, height);
     }
 
     public int getDX() {

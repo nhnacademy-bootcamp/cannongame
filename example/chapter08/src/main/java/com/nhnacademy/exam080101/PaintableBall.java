@@ -21,6 +21,7 @@ public class PaintableBall extends Ball implements Paintable {
         return color;
     }
 
+    @Override
     public void paint(Graphics g) {
         if (g == null) {
             throw new IllegalArgumentException("Graphics context g is null");

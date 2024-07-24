@@ -23,8 +23,8 @@ public class TestMovableBall {
 
         assertEquals(dx, ball.getDX());
         assertEquals(dy, ball.getDY());
-        assertEquals(startX + dx * step, ball.getX());
-        assertEquals(startY + dy * step, ball.getY());
+        assertEquals(startX + dx * step, ball.getRegion().getCenterX());
+        assertEquals(startY + dy * step, ball.getRegion().getCenterY());
     }
 
     static Stream<Arguments> testMovableBallProvider() {

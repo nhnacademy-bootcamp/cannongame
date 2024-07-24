@@ -3,7 +3,7 @@ package com.nhnacademy;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class PaintableBall extends Ball {
+public class PaintableBall extends Ball implements Paintable {
     public PaintableBall(int x, int y, int radius, Color color) {
         super(x, y, radius, color);
     }
@@ -20,7 +20,7 @@ public class PaintableBall extends Ball {
         Color oldColor = g.getColor();
 
         g.setColor(getColor());
-        g.fillOval(getX() - getRadius(), getY() - getRadius(), 2 * getRadius(), 2 * getRadius());
+        g.fillOval(getMinX(), getMinY(), getWidth(), getHeight());
         g.setColor(oldColor);
     }
 }
