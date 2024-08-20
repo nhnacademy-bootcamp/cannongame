@@ -14,13 +14,13 @@ import org.apache.logging.log4j.Logger;
 public class Main {
     static final int FRAME_WIDTH = 1000;
     static final int FRAME_HEIGHT = 600;
-    static final int DT = 10;
+    static final int DT = 1000;
     static final int STATIC_BOX_COUNT = 5;
     static final int BOX_MIN_WIDTH = 10;
     static final int BOX_MAX_WIDTH = 100;
     static final int BOX_MIN_HEIGHT = 10;
     static final int BOX_MAX_HEIGHT = 100;
-    static final int MOVABLE_BALL_COUNT = 5;
+    static final int MOVABLE_BALL_COUNT = 1;
     static final int BALL_MIN_RADIUS = 5;
     static final int BALL_MAX_RADIUS = 30;
     static final int BALL_MIN_SPEED = 1;
@@ -34,7 +34,7 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
 
-        BoundedWorld world = new BoundedWorld();
+        MovableWorld world = new MovableWorld();
         frame.add(world);
         frame.setVisible(true);
 
@@ -55,7 +55,7 @@ public class Main {
             int x = radius + random.nextInt(world.getWidth() - 2 * radius);
             int y = radius + random.nextInt(world.getHeight() - 2 * radius);
 
-            MovableBall ball = new MovableBall(x, y, radius, Color.GREEN);
+            MovableBall ball = new BoundedBall(x, y, radius, Color.GREEN);
 
             boolean collision = false;
             for (int i = 0; !collision && i < world.getCount(); i++) {
@@ -95,13 +95,15 @@ public class Main {
                 }
 
                 if (!collision) {
-                    MovableBall ball = new MovableBall((int) point.getX(), (int) point.getY(), radius, Color.GREEN);
+                    BoundedBall ball = new BoundedBall((int) point.getX(), (int) point.getY(), radius, Color.GREEN);
                     int dx = (random.nextInt() % 2 == 0 ? 1 : -1)
                             * (BALL_MIN_SPEED + random.nextInt(BALL_MAX_SPEED - BALL_MIN_SPEED));
                     int dy = (random.nextInt() % 2 == 0 ? 1 : -1)
                             * (BALL_MIN_SPEED + random.nextInt(BALL_MAX_SPEED - BALL_MIN_SPEED));
 
                     ball.setMotion(new PositionalVector(dx, dy));
+                    ball.setBounds(world.getBounds());
+
                     world.add(ball);
                 }
             }

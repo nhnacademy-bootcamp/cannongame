@@ -19,7 +19,7 @@ public class Region {
         this(location.getX(), location.getY(), dimension.getWidth(), dimension.getHeight());
     }
 
-    private Region(Rectangle rectangle) {
+    public Region(Rectangle rectangle) {
         this.location = new Location((int) rectangle.getCenterX(), (int) rectangle.getCenterY());
         this.dimension = new Dimension((int) rectangle.getWidth(), (int) rectangle.getHeight());
     }

@@ -3,7 +3,7 @@ package com.nhnacademy;
 import java.awt.Color;
 import java.awt.Rectangle;
 
-public class BoundedBall extends MovableBall {
+public class BoundedBall extends MovableBall implements Bounded {
 
     Rectangle bounds;
 
@@ -43,5 +43,10 @@ public class BoundedBall extends MovableBall {
                 setDY(-getDY());
             }
         }
+    }
+
+    @Override
+    public boolean isOutOfBounds(Rectangle bounds) {
+        return getRegion().intersects(new Region(bounds));
     }
 }
